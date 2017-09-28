@@ -15,8 +15,8 @@ function draw()
 	background(10, 10, 80);
 	stroke(255);
 	translate(width/2, height/2);
-    var a = atan2(mouseY-height/2, mouseX-width/2);
-    resetMatrix();
+    	var a = atan2(mouseY-height/2, mouseX-width/2);
+    	resetMatrix();
 	
 	for (var i = 10; i < width; i += 50)
 	{
